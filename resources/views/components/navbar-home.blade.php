@@ -134,7 +134,7 @@
                 <div class="flex items-center gap-4 transition-colors duration-100"
                     :class="'{{ Route::currentRouteName() }}'
                     === 'home' ? (scrolled ? 'text-black' : 'text-white') : 'text-black'">
-                    <div class="flex lg:gap-3 2xl:gap-6 lg:text-[13px] 2xl:text-base items-center">
+                    <div class="flex lg:gap-3 2xl:gap-6 items-center">
                         @php $currentRoute = Route::currentRouteName(); @endphp
                         <a href="{{ route('nosotros') }}"
                             class="relative hover:text-[#5C93CB] transition duration-200 {{ $currentRoute == 'nosotros' ? 'font-bold' : '' }}">

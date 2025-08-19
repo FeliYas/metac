@@ -20,7 +20,7 @@
                             @endif
                         </div>
                         <div class="absolute inset-0 z-10"
-                            style="background: linear-gradient(0deg, rgba(89, 148, 200, 0.30) 0%, rgba(89, 148, 200, 0.30) 100%), linear-gradient(90deg, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.91) 0%, rgba(0, 0, 0, 0.00) 100%);">
+                            style="mix-blend-mode: darken; background: linear-gradient(0deg, rgba(89, 148, 200, 0.30) 0%, rgba(89, 148, 200, 0.30) 100%), linear-gradient(90deg, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.91) 0%, rgba(0, 0, 0, 0.00) 100%);">
                         </div>
                         <div class="absolute inset-0 flex z-20 lg:max-w-[1224px] lg:mx-auto">
                             <div class="relative flex flex-col gap-4 sm:gap-6 lg:gap-23 w-full justify-center">

@@ -95,7 +95,6 @@ class NosotrosController extends Controller
 
         return redirect()->route('nosotros.dashboard')->with('message', 'Nosotros actualizado exitosamente');
     }
-
     public function updateTarjeta(Request $request, $id)
     {
         $validator = Validator::make($request->all(), [

@@ -28,10 +28,15 @@
             <div class="py-20 flex flex-col lg:flex-row gap-6">
                 <img src="{{ $industria->path }}" alt="{{ __('Imagen de industria') }}"
                     class="lg:w-1/2 h-[600px] object-cover">
-                <div class="flex flex-col gap-3.5 lg:w-1/2 text-black">
-                    <h2 class="font-bold text-[32px]">{{ $industria->subtitulo }}</h2>
-                    <div class="custom-summernote leading-5.5">
-                        <p>{!! $industria->descripcion !!}</p>
+                <div class="flex flex-col justify-between lg:w-1/2 text-black">
+                    <div class="flex flex-col gap-3.5">
+                        <h2 class="font-bold text-[32px]">{{ $industria->subtitulo }}</h2>
+                        <div class="custom-summernote leading-5.5">
+                            <p>{!! $industria->descripcion !!}</p>
+                        </div>
+                    </div>
+                    <div class="w-[182px]">
+                        <a href="{{ route('contacto') }}" class="btn-primary">Consultar</a>
                     </div>
                 </div>
             </div>
